@@ -4,7 +4,11 @@ const aiRoutes = require('./routes/ai.routes')
 
 const app = express() //server is created
 
-app.get('/',(req,res) =>{ //dummy route
+
+app.use(express.json());
+
+
+app.post('/',(req,res) =>{ //dummy route
     res.send('hello World')
 })
 
