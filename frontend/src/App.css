@@ -32,6 +32,14 @@ main .left{
 main .left{
   background-color: #343434;
 }
+.left  .code,
+.code pre,
+.code pre code{
+  height:100%;
+  width:100%;
+  margin:0;
+  border-radius:0.7rem;
+}
 
 main .left .review{
   position: absolute;
